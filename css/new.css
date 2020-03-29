@@ -1,0 +1,36 @@
+#like_button_container{
+    width: 100px;
+    font-size: 20pt;
+    color: red;
+}
+div.timer{
+    border: 4px 4px 4px 4px solid black;
+    border-radius: 25px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+div.light{
+    background-color: rgb(255,250,150);
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* display: grid;
+    grid-template-columns: 25%; */
+}
+div.dark{
+    background-color: rgb(255,150,50);
+    padding: 10px;
+    /* display: grid;
+    grid-template-columns: 25%; */
+}
+
+.wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr auto;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-column-start: 1 3;
+}
